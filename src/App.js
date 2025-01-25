@@ -7,13 +7,13 @@ import RegisterPopup from "./components/RegisterPopUp";
 import WhyChoose from "./components/WhyChoose";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
-import './App.css';
-import DogCardGallery from "./components/AdoptPets";
+import "./App.css";
+import DogCardGallery from "./components/AdoptPets";											
 import RehomeDog from "./components/RehomeDog";
 import AdoptPets from "./components/AdoptPets";
-import Pets from './components/Pets-logo.jpg'
+import Pets from './components/Pets-logo.jpg'								 
 import AboutUs from "./components/AboutUs";
-import MedicalCare from "./components/PetCareHeroSection";
+import MedicalCare from "./components/PetCareHeroSection";										  
 import PetCareSection from "./components/PetCareHeroSection";
 import AdoptionTips from "./components/AdoptionTips";
 import RehomingTips from "./components/RehomingTips";
@@ -32,7 +32,9 @@ const App = () => {
         <Navbar />
       </header>
 
+      {/* Define Routes */}
       <Routes>
+        {/* Home Page */}
         <Route
           path="/"
           element={
@@ -45,14 +47,16 @@ const App = () => {
             </>
           }
         />
+        
+        {/* Other Routes */}
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/petcare" element={<PetCareSection />} />
-        <Route path="/petsdetails" element={<HeroSection />} />
+															   
         <Route path="/registerpopup" element={<RegisterPopup />} />
-        <Route path = "/adoptpets" element={<AdoptPets />}/>
-        <Route  path = "/rehomepets" element= {<RehomeDog />} />
-        <Route  path = "/tips-adoption" element= {<AdoptionTips />} />
-        <Route  path = "/tips-rehoming" element= {<RehomingTips />} />
+        <Route path="/adoptpets" element={<AdoptPets />} />
+        <Route path="/rehomepets" element={<RehomeDog />} />
+        <Route path="/tips-adoption" element={<AdoptionTips />} />
+        <Route path="/tips-rehoming" element={<RehomingTips />} />
       </Routes>
     </div>
   );

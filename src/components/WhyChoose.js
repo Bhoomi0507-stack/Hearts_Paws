@@ -88,5 +88,4 @@ const WhyChoose = () => {
     </section>
   );
 };
-
 export default WhyChoose;

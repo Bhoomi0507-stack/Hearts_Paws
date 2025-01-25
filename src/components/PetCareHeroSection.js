@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./PetCare.css";
 import BookAppointment from "./BookAppointment";
+import Footer from "./Footer";
 
 const MedicareCareDetails = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -65,6 +66,9 @@ const MedicareCareDetails = () => {
           </div>
         </div>
       )}
+      <div style={{marginTop: "170px"}}>
+        <Footer />
+      </div>
     </div>
   );
 };

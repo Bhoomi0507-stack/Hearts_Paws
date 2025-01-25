@@ -15,7 +15,6 @@ const WhyChoose = () => {
         </div>
         <div className="grid-container">
           <div className="why_chose_us">
-            <a href="/about-us-volunteer/">
               <div className="icon">
                 <span
                   className="hearts-img"
@@ -39,10 +38,8 @@ const WhyChoose = () => {
                   </ul>
                 </p>
               </div>
-            </a>
           </div>
           <div className="why_chose_us">
-            <a href="/about-us-volunteer/">
               <div className="icon">
                 <span
                   className="hands-dog-img"
@@ -62,10 +59,8 @@ const WhyChoose = () => {
                   We’re proud supporters of #AdoptDontShop.
                 </p>
               </div>
-            </a>
           </div>
           <div className="why_chose_us">
-            <a href="/about-us-volunteer/">
               <div className="icon">
                 <span
                   className="stars-person-img"
@@ -87,7 +82,6 @@ const WhyChoose = () => {
                   and Gumtree.
                 </p>
               </div>
-            </a>
           </div>
         </div>
       </div>

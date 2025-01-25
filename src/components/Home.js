@@ -2,8 +2,7 @@ import React from 'react';
 import App from './App';
 const Home = () => {
     return (
-        <div>
-            
+        <div className='Home'>        
  <App />
         </div>
     );

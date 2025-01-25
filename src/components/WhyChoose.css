@@ -1,0 +1,186 @@
+.why_chose_us {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 50px 60px 30px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 100%;
+    border: 1px solid #dfdfdf;
+}
+
+.whychose_us .h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 25px;
+    font-family: nunito, sans-serif;
+    line-height: 1.2;
+    color: #484848;
+}
+
+.why_chose_us:hover {
+    -webkit-box-shadow: 0 0 50px 0 rgba(19,19,28,.12);
+    -moz-box-shadow: 0 0 50px 0 rgba(19,19,28,.12);
+    -o-box-shadow: 0 0 50px 0 rgba(19,19,28,.12);
+    box-shadow: 0 0 50px 0 rgba(19,19,28,.12)
+}
+
+.why_chose_us .icon {
+    background-color: #afd57d;
+    border-radius: 50%;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    width: 130px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+.why_chose_us:hover .icon {
+  background-color: rgb(187, 30, 187);
+}
+
+.why_chose_us:hover .icon span {
+    color: #fff
+}
+
+.why_chose_us .icon span {
+    color: #fff;
+    font-size: 68px;
+    line-height: 130px
+}
+
+.why_chose_us .icon span.hands-dog-img {
+  background-image: url('/public/images/dogs/Icon4.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image scales to fill the element */
+    background-position: center; /* Centers the image */
+    width: 100%; /* Set the width to match the containing element */
+    height: 100%; /* Set the height to match the containing element */
+    display: block; /* Ensure the span behaves as a block element */
+  }
+  
+.why_chose_us .icon span.hearts-img {
+  background-image: url('/public/images/dogs/Icon8.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+} 
+
+.why_chose_us .icon span.stars-person-img {
+  background-image: url('/public/images/dogs/Icon7.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+} 
+
+.why_chose_us .details {
+    margin-top: 50px
+}
+
+.why_chose_us.style2 {
+    border: 1px solid #ebebeb;
+    overflow: hidden
+}
+
+.why_chose_us.style2 .icon {
+    background-color: #f7f7f7
+}
+
+.why_chose_us.style2:hover:before {
+  background-color: rgb(187, 30, 187);
+    bottom: 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%
+}
+
+.why_chose_us.style2:hover .icon {
+    background-image: -moz-linear-gradient( 0deg,rgb(250,124,65) 0%,rgb(255,101,101) 100%);
+    background-image: -webkit-linear-gradient( 0deg,rgb(250,124,65) 0%,rgb(255,101,101) 100%);
+    background-image: -ms-linear-gradient( 0deg,rgb(250,124,65) 0%,rgb(255,101,101) 100%)
+}
+
+.whychose_us {
+    padding: 30px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .main-title p{
+    font-size: 20px;
+    font-family: nunito;
+    color: #777;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .why_chose_us {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .why_chose_us:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    margin-bottom: 15px;
+  }
+  
+  .why_chose_us a {
+    text-decoration: none; /* Remove underline from the anchor */
+  }
+  
+  .why_chose_us a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+  }
+  
+  .why_chose_us .details h4 {
+    font-family: nunito;
+    color: #484848;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none; /* Prevent underline */
+  }
+  
+  .why_chose_us .details p {
+    color: #000;
+    font-size: 16px;
+    font-family: nunito;
+    line-height: 1.714;
+    text-decoration: none; /* Prevent underline */
+  }
+  
+  
+  
+  .why_chose_us .details ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .why_chose_us .details ul li {
+    margin-bottom: 5px;
+  }
+  

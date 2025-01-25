@@ -1,0 +1,103 @@
+.home1_bgi1 {
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.home1_bgi1 {
+    -webkit-background-size: cover;
+    background-image: url('/public/images/dogs/headerbanner-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home1_bgi1 {
+        background-image:none!important;
+        background-color: #fff!important
+    }
+}
+
+.home1_bgi1 img {
+    width: 120px;
+    height: auto;
+    place-self: center;
+    z-index: 1;
+}
+
+.heroButton__wrapper {
+    display: flex;
+    background: #a5038f;
+    padding: 30px 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin-inline: 30px;
+    align-items: center;
+}
+
+.heroButton__content {
+    padding-left: 20px;
+    z-index: 1;
+}
+
+.heroButton {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    transition: all .2s ease-in-out; 
+    max-width: 500px;
+}
+
+.heroButton:hover,
+.heroButton:active,
+.heroButton:focus  {
+    transform: scale(1.03); 
+}
+
+.heroButton:before {
+    /* background-color: rgba(255,255,255, .40); */
+    border-radius: 8px;
+    bottom: -10px;
+    content: "";
+    left: -10px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: -1;
+}
+
+.heroButton h3 {
+    color: #ffffff;
+}
+
+.heroButton p {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.heroButton__anchor {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#recite-wrapper a.heroButton__anchor {
+    background: none!important;
+}
+
+.heroButton + .heroButton {
+    margin-top: 40px;
+}
+
+.heroButton + .heroButton .heroButton__wrapper {
+    background: #a5038f;
+}

@@ -1,0 +1,46 @@
+.b-root .bubble-element.baTbaEaZ0 {
+    overflow: visible;
+    justify-content: flex-start;
+    row-gap: 0px;
+    column-gap: 30px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+    opacity: 1;
+    align-self: flex-start;
+    min-width: 0px;
+    order: 2;
+    min-height: 140px;
+    height: max-content;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: calc(100% - 0px);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    z-index: 3;
+  }
+
+  .bubble-r-container.flex > .bubble-element {
+    position: relative;
+}
+.bubble-r-container.flex {
+    display: flex;
+    align-content: stretch;
+}
+ 
+.stat-item img {
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 0px;
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-around;
+}

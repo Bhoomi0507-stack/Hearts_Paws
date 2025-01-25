@@ -1,0 +1,151 @@
+.bgc-thm .container .row {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 50px;
+    
+  }
+  
+  
+  .bgc-thm {
+  border-radius: 50px;
+  padding: 30px;
+    background-color: #a5038f !important;
+}
+
+.text-left h4{
+    font-family: nunito, sans-serif;
+    font-size: 26px;
+    color: #fff;
+}
+
+.text-left p{
+    font-family: nunito, sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.text-right{
+    position: relative;
+    width: 250px;
+    margin: auto;
+}
+
+.text-right-btn{
+    position: relative;
+    width: 100%;
+    padding: 25px 35px; /* Adjust padding to your preference */
+    background-color: rgb(187, 30, 187);
+    color: white;
+    font-family: nunito, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px; /* Optional for rounded corners */
+    cursor: pointer;
+  }
+  
+  .text-right-btn:hover {
+    background-color: grey; /* Slightly darker shade on hover */
+  }
+  
+  /* styles.css */
+.bubble-element {
+    white-space: pre-wrap;
+    overflow: visible;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    line-height: 1;
+    border-radius: 0px;
+    opacity: 1;
+    align-self: center;
+    min-width: 0px;
+    order: 1;
+    min-height: 0px;
+    height: max-content;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: auto;
+    margin: 0px;
+    z-index: 1;
+  }
+  
+  /* Hover effect for the text elements */
+/* General card styles */
+.clickable-element {
+    background-color: rgb(229, 234, 226);
+    overflow: visible;
+    justify-content: flex-start;
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 1;
+    cursor: pointer;
+    align-self: flex-start;
+    min-width: 350px;
+    order: 1;
+    min-height: 0px;
+    width: max-content;
+    flex-grow: 0;
+    height: max-content;
+    margin: 0px 0px 60px;
+    z-index: 6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+  }
+  
+  /* Hover effect */
+  .clickable-element:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  }
+  
+  /* Text styling */
+  .clickable-element .bubble-element.Text {
+    white-space: pre-wrap;
+    overflow: visible;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    line-height: 1;
+    border-radius: 0px;
+    opacity: 1;
+    align-self: center;
+    min-width: 0px;
+    order: 1;
+    min-height: 0px;
+    height: max-content;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: auto;
+    margin: 0px;
+    z-index: 1;
+  }
+  
+  /* Image styling */
+  .clickable-element .bubble-element.Image {
+    border-radius: 0px;
+    opacity: 1;
+    align-self: flex-start;
+    min-width: 0px;
+    order: 2;
+    height: max-content;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: calc(100% - 80px);
+    margin: 40px;
+    z-index: 3;
+  }
+  
+  /* Additional hover styles for images if needed */
+  .clickable-element:hover .bubble-element.Image img {
+    opacity: 0.8; /* Slightly reduce opacity for images on hover */
+    transition: opacity 0.3s ease; /* Smooth transition for image opacity */
+  }
+  
+  
+ 
+
+  

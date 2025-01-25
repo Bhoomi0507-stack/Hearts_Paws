@@ -11,6 +11,11 @@ const Navbar = () => {
   const [isRegisterPopupVisible, setIsRegisterPopupVisible] = useState(false);
 
   const navigate = useNavigate();
+  const handleHome = (e) => {
+    e.preventDefault();
+    navigate('/');
+  };
+
     const handleAbout = (e)=>{
       e.preventDefault()
       navigate("/aboutus")
@@ -44,7 +49,7 @@ const Navbar = () => {
         {/* Right side: Links */}
         <nav className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
           <ul className="navbar-list">
-            <li><a href="/">Home</a></li>
+             <li onClick={handleHome}><a href="/">Home</a></li>
             <li onClick={handlePetCare}><a href="/petcare">Medical Care</a></li>
             <li onClick={handleAbout}><a href="/about-us-volunteer">About/Volunteer</a></li>
             <li onClick={openRegisterPopup}><a href="Login"></a> 

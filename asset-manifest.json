@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Hearts_Paws/static/css/main.27878c1f.css",
+    "main.js": "/Hearts_Paws/static/js/main.8fa60308.js",
+    "static/media/headerbanner-1.jpg": "/Hearts_Paws/static/media/headerbanner-1.75547f54fd833366dae6.jpg",
+    "static/media/Pets-logo.jpg": "/Hearts_Paws/static/media/Pets-logo.c889262cc94415c6c7a9.jpg",
+    "static/media/Hero+image.webp": "/Hearts_Paws/static/media/Hero+image.3ef300b8231a25e92e3b.webp",
+    "static/media/Cat1.jpg": "/Hearts_Paws/static/media/Cat1.9665432bb1ba094e459f.jpg",
+    "static/media/Dog3.jpg": "/Hearts_Paws/static/media/Dog3.05e57c39134cd05e6f2a.jpg",
+    "static/media/Dog4.jpg": "/Hearts_Paws/static/media/Dog4.25f20f5bef05d412aec0.jpg",
+    "static/media/Dog1.jpg": "/Hearts_Paws/static/media/Dog1.f1756d938063fa937028.jpg",
+    "static/media/Icon4.png": "/Hearts_Paws/static/media/Icon4.7297c12d2d3b18888866.png",
+    "static/media/Icon8.png": "/Hearts_Paws/static/media/Icon8.3b6df9e91d644a67f3df.png",
+    "static/media/Cat2.jpg": "/Hearts_Paws/static/media/Cat2.5369074f29772aa927a9.jpg",
+    "static/media/Icon7.png": "/Hearts_Paws/static/media/Icon7.702e3bb9e0aaffc10e00.png",
+    "static/media/homepage_rehomepet.svg": "/Hearts_Paws/static/media/homepage_rehomepet.b86a915d5ffa66b28a5112cc9409a45a.svg",
+    "static/media/homepage_searchpet.svg": "/Hearts_Paws/static/media/homepage_searchpet.3ef8c7cdbc16384489d128f756e921a8.svg",
+    "index.html": "/Hearts_Paws/index.html",
+    "main.27878c1f.css.map": "/Hearts_Paws/static/css/main.27878c1f.css.map",
+    "main.8fa60308.js.map": "/Hearts_Paws/static/js/main.8fa60308.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27878c1f.css",
+    "static/js/main.8fa60308.js"
+  ]
+}

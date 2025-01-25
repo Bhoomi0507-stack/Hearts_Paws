@@ -1,6 +1,8 @@
 import React from "react";
-import "./PetsDetailsPage.css"; // Import CSS for styling
+import "./HeroSection.css"; // Import CSS for styling
 import { Navigate, useNavigate } from "react-router-dom";
+import AdoptPet from './homepage_searchpet.svg'
+import RehomePet from './homepage_rehomepet.svg'
 
 const PetsDetailsPage = () => {
   const navigate = useNavigate();
@@ -16,18 +18,16 @@ const PetsDetailsPage = () => {
   return (
     <section
       className="home-one home1_bgi1"
-      
     >
       <div className="container">
         <div className="row posr">
           <div className="col-12 col-lg-5">
             {/* Adopt a Pet Button */}
             <div className="heroButton" onClick={handleAdopt}>
-              <a href="/adoptpets" className="heroButton__anchor"></a>
+              {/* <a href="/adopt-a-pet/" className="heroButton__anchor"></a> */}
               <div className="heroButton__wrapper">
-                <img
-                  style={{ height: "auto", width: "auto" }}
-                  src={Buddy}
+                <img 
+                  src={AdoptPet}
                   alt="Adopt a Pet"
                 />
                 <div className="heroButton__content">
@@ -39,11 +39,10 @@ const PetsDetailsPage = () => {
 
             {/* Rehome My Pet Button */}
             <div className="heroButton" onClick={handleRehome}>
-              <a href="/rehomepets" className="heroButton__anchor"></a>
+              <a href="/list-a-pet/" className="heroButton__anchor"></a>
               <div className="heroButton__wrapper">
                 <img
-                  style={{ height: "auto", width: "auto" }}
-                  src="/home-icon-1.png"
+                  src={RehomePet}
                   alt="Rehome a Pet"
                 />
                 <div className="heroButton__content">

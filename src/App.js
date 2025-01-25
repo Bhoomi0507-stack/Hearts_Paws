@@ -17,6 +17,7 @@ import MedicalCare from "./components/PetCareHeroSection";
 import PetCareSection from "./components/PetCareHeroSection";
 import AdoptionTips from "./components/AdoptionTips";
 import RehomingTips from "./components/RehomingTips";
+import PetsDetailsPage from "./components/PetsDetailsPage";
 
 
 const App = () => {
@@ -51,7 +52,7 @@ const App = () => {
         {/* Other Routes */}
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/petcare" element={<PetCareSection />} />
-															   
+        <Route path="/petsdetails" element={<PetsDetailsPage />} />										   
         <Route path="/registerpopup" element={<RegisterPopup />} />
         <Route path="/adoptpets" element={<AdoptPets />} />
         <Route path="/rehomepets" element={<RehomeDog />} />

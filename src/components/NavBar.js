@@ -49,7 +49,7 @@ const Navbar = () => {
         {/* Right side: Links */}
         <nav className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
           <ul className="navbar-list">
-          <li onClick={handleHome}><a href="/">Home</a></li>
+          <button onClick={handleHome}>Home</button>
             <li onClick={handlePetCare}><a href="/petcare">Medical Care</a></li>
             <li onClick={handleAbout}><a href="/about-us-volunteer">About/Volunteer</a></li>
             <li onClick={openRegisterPopup}><a href="Login"></a> 

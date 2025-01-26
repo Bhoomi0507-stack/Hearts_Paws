@@ -25,7 +25,7 @@ const AboutUs = () => {
         <p>Who we are, and why we created Hearts and Paws</p>
         <p>
           Hearts and Paws has been set up by a group of animal lovers who are committed to ending pet homelessness and irresponsible
-          rehoming practices. We're part of a registered UK charity so you can rest assured that we always prioritise pet
+          rehoming practices. This is part of charity so rest assured that we always prioritise pet
           welfare over profit.
         </p>
 
@@ -38,7 +38,7 @@ const AboutUs = () => {
             <div>
                           <h3>3.7 million</h3>
               <p>
-                pets from UK homes have been given up in the past year according to the PFMA (Pet Food Manufacturers Association).
+                pets from Indian homes have been given up in the past year according to the PFMA (Pet Food Manufacturers Association).
               </p>
             </div>
           </div>

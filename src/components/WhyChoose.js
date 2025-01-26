@@ -78,8 +78,7 @@ const WhyChoose = () => {
                   <br />
                   <br />
                   We always prioritise pet welfare. And we offer a safer, more ethical and
-                  professional alternative to online marketplaces like Preloved, Pets4Homes, Facebook
-                  and Gumtree.
+                  professional alternative to online marketplaces like Preloved, Hearts_Paws and Facebook
                 </p>
               </div>
           </div>

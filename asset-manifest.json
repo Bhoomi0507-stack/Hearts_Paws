@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hearts_Paws/static/css/main.0699f2c8.css",
-    "main.js": "/Hearts_Paws/static/js/main.7f7933d2.js",
+    "main.js": "/Hearts_Paws/static/js/main.94848bc8.js",
     "static/media/headerbanner-1.jpg": "/Hearts_Paws/static/media/headerbanner-1.75547f54fd833366dae6.jpg",
     "static/media/Pets-logo.jpg": "/Hearts_Paws/static/media/Pets-logo.c889262cc94415c6c7a9.jpg",
     "static/media/Hero+image.webp": "/Hearts_Paws/static/media/Hero+image.3ef300b8231a25e92e3b.webp",
@@ -17,10 +17,10 @@
     "static/media/homepage_searchpet.svg": "/Hearts_Paws/static/media/homepage_searchpet.3ef8c7cdbc16384489d128f756e921a8.svg",
     "index.html": "/Hearts_Paws/index.html",
     "main.0699f2c8.css.map": "/Hearts_Paws/static/css/main.0699f2c8.css.map",
-    "main.7f7933d2.js.map": "/Hearts_Paws/static/js/main.7f7933d2.js.map"
+    "main.94848bc8.js.map": "/Hearts_Paws/static/js/main.94848bc8.js.map"
   },
   "entrypoints": [
     "static/css/main.0699f2c8.css",
-    "static/js/main.7f7933d2.js"
+    "static/js/main.94848bc8.js"
   ]
 }
